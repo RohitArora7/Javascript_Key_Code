@@ -102,3 +102,16 @@ close braket	221
 single quote	222
 
 ```
+
+Json
+
+```bash
+JSON.parse(data)
+JSON.stringify(data)
+```
+
+response 
+```bash
+ return JsonResponse(output_data)
+ return HttpResponse(json.dumps(output_data), content_type="application/json")
+```
