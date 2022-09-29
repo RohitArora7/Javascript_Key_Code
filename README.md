@@ -115,3 +115,9 @@ response
  return JsonResponse(output_data)
  return HttpResponse(json.dumps(output_data), content_type="application/json")
 ```
+
+```bash
+\t
+&#9;
+(The tab is ASCII character 9, or Unicode U+0009.)
+```
